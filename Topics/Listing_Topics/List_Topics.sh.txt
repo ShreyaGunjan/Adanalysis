@@ -1,0 +1,1 @@
+./kafka-topics.sh --bootstrap-server b-1.mskcluster.zd8ja0.c3.kafka.us-east-2.amazonaws.com:9092 --list   
