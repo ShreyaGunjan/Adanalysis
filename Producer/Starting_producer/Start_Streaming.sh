@@ -1,0 +1,3 @@
+PRODUCERS=home/ubuntu/adanalysis/producer/
+python3 $PRODUCERS/streaming_pageview.py 0.01 b-3.mskcluster.zd8ja0.c3.kafka.us-east-2.amazonaws.com:9092 b-1.mskcluster.zd8ja0.c3.kafka.us-east-2.amazonaws.com:9092 b-2.mskcluster.zd8ja0.c3.kafka.us-east-2.amazonaws.com:9092 &
+python3 $PRODUCERS/streaming_events.py 0.01 100 b-3.mskcluster.zd8ja0.c3.kafka.us-east-2.amazonaws.com:9092 b-1.mskcluster.zd8ja0.c3.kafka.us-east-2.amazonaws.com:9092 b-2.mskcluster.zd8ja0.c3.kafka.us-east-2.amazonaws.com:9092
